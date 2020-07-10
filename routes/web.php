@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/todolist', function () {
+Route::get('/', function () {
     return view('pages.todolist');
 });
